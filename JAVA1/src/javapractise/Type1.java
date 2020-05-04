@@ -1,6 +1,6 @@
 package javapractise;
 
-public statis void  main(String[] args) {
+
 
 	public class Type1 {
 
@@ -24,7 +24,7 @@ public statis void  main(String[] args) {
 	    	System.out.println(x);
 	    }
 	    }
-}
+
 	
 	
 	
