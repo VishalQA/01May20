@@ -4,10 +4,39 @@ import java.util.Scanner;
 
 public class AverageValue {
 	
+
+static int iteration;
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner (System.in);
+		
+//		System.out.println("Please enter the iteration");
+//		
+//		
+//		int iteration = input.nextInt() ;
+//		int i;
+//		for (i= 1; i <= iteration; i++ ) {
+//		
+//		System.out.println("Please enter the  number" );
+//		int number = input.nextInt();
+//		System.out.println("You enetered the number is "  +number);
+//		
+//		
+//		
+//		}
+//	}
+//		public static int Average (int number)
+//		
+//		{
+//			
+//			return number/ iteration;
+//			
+//		}
+//	}
+
+		
 	 
 		
 		System.out.println("Please enter the  number1" );
