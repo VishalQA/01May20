@@ -38,7 +38,7 @@ public class Calculator {
             break;
             
         default :
-        	System.out.println("Error! operator is not from the list");
+        	System.out.println("Error! operator you entered is not from the list");
         	return;
         	                 
         }
