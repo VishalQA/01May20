@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="D:/selenium-server-4.0.0-alpha-4 (2).jar"/>
 	<classpathentry kind="lib" path="D:/selenium-server-4.0.0-alpha-4.jar"/>
 	<classpathentry kind="lib" path="D:/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jaju_v/Downloads/jd-eclipse-2.0.0/plugins/org.jd.ide.eclipse.plugin_2.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
