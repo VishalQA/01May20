@@ -14,7 +14,7 @@ public class AverageofArray {
 		System.out.println("Please enter no. of elements you want in an aarray");
 		n = s.nextInt();
 		int a[] = new int[n];
-		System.out.println("Please enter all elements below --->");
+		System.out.println("Hi Please enter all elements below --->");
 	
 		for (int i = 0;i < n ; i++ )
 		{
