@@ -47,8 +47,7 @@ public class Input2dArray {
 				}
 			}
 			
-			int [][] sum  = new int[rows][columns]
-	}
+}
 
 		
 		
