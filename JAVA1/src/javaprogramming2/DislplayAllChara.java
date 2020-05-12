@@ -1,4 +1,4 @@
-package test01;
+package javaprogramming2;
 
 public class DislplayAllChara {
 
