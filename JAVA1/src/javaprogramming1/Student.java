@@ -1,4 +1,4 @@
-package javaeprogramming1;
+package javaprogramming1;
 
 public class Student {
 	

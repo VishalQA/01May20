@@ -1,45 +1,49 @@
-package javaeprogramming1;
+package javaprogramming1;
 
 import java.util.Scanner;
 
-public class Calc {
-
+public class Calculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);
 	    System.out.println("Please enter two numbers ");
-        int number1 = input.nextInt();
-        int number2 = input.nextInt();
+        double number1 = input.nextDouble();
+        double number2 = input.nextDouble();
         
         System.out.printf("You have entered two numbers as ");
-        System.out.println("Please enter an op : + , - , * , /");
+        System.out.println("Please enter an op ( + , - , * , / ) : ");
         
-        char op = input.findInLine(".").charAt(0);
+        char op = input.next().charAt(0);
         
-        int result;
+        double result;
         
         switch(op) {
+        
         case '+' :
-        result = number1 +number2 ;
-        break;
+            result = number1 +number2 ;
+            break;
         
         case '-':
         	result = number1 - number2 ;
         	break;
+        	
         case '*' :
         	result = number1 * number2;
-        	break;        	
+        	break;   
+        	
         case '/':
             result = number1/number2;
             break;
+            
         default :
-        	System.out.println("Error! operator is not from the list");
+        	System.out.println("Error! operator you entered is not from the list");
         	return;
         	                 
         }
-        System.out.printf("%.1f %c %.1f = %.1f", number1, op, number2, result );
+        System.out.println("The result is :" +number1+  op  +number2+ "=" +result  );
+       
         
 	}
 

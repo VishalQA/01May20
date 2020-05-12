@@ -1,8 +1,11 @@
-package javaeprogramming1;
+package javaprogramming1;
 
 import java.util.Scanner;
 
-public class HowtoInputArray {
+public class AverageofArray {
+
+
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
